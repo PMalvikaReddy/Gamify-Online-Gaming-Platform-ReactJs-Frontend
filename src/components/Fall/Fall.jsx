@@ -2,12 +2,9 @@ import React from "react";
 import "./Fall.css";
 import * as PushAPI from "@pushprotocol/restapi";
 import * as ethers from "ethers";
-
 let kkk = true;
 let nftNo = 0, url="";
 let sendImage="";
-
-
 let pushImages = ["https://gateway.pinata.cloud/ipfs/QmQKrqBKLbWqtLYSSfdmpEPwjnTtPMBJBYND9CiLBSkWKD?_gl=1*1pulrcs*_ga*MjAyYWIyYWUtMmRmYi00M2RiLWFlMjctYzNkOTgyYmZjYzIy*_ga_5RMPXG14TE*MTY3OTU4Mjk4Ny4xNC4wLjE2Nzk1ODI5OTkuNDguMC4w",
 "https://gateway.pinata.cloud/ipfs/Qmdo3gXuJ5vTf2iEJSsjQKX9ioYPHfmKYWdws7s1VDNMeA?_gl=1*1pulrcs*_ga*MjAyYWIyYWUtMmRmYi00M2RiLWFlMjctYzNkOTgyYmZjYzIy*_ga_5RMPXG14TE*MTY3OTU4Mjk4Ny4xNC4wLjE2Nzk1ODI5OTkuNDguMC4w",
 
