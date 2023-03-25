@@ -91,27 +91,15 @@ const Fall = () => {
     }
   };
   sendNotification(sendImage,url);
-      
-  
-  
-  
   window.open(goHere,'_blank')
   }
-
   const fallrain = async function () {
-
-
-    // const check ={};
-    if(kkk){
-      // delay(function(){console.log("heyheyhey")},20000)
+    if(kkk)
       let check=await dbread();
       console.log("check", check)
       kkk = false;
     }
     let  nft= nftNo;
-    
-// n4 - panda n5 - phoenix  n3 - glock  n2 - mask  n1 - space girl
-
 let col = 0;
 if (nft == "n4") { 
   image.src = new1;
@@ -129,10 +117,7 @@ if (nft == "n4") {
   image.src = new5;
   col = 4;
 }
-
 const color = ["white", "red", "white", "blue", "gold"];
-
-
     image.addEventListener("load", function () {
       const canvas = document.getElementById("canvas1");
       const ctx = canvas.getContext("2d");
@@ -161,7 +146,6 @@ const color = ["white", "red", "white", "blue", "gold"];
         }
         grid.push(row);
       }
-
       class Particle {
         constructor() {
           this.x = Math.random() * canvas.width;
@@ -189,7 +173,6 @@ const color = ["white", "red", "white", "blue", "gold"];
           ctx.fill();
         }
       }
-
       function init() {
         for (let i = 0; i < numberOfParticles; i++) {
           particlesArray.push(new Particle());
