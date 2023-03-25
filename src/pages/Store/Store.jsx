@@ -1,23 +1,12 @@
 import React, { ReactDOM, useState } from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import images from "../../constants/images.js";
-// import { ethers } from "./ethers-5.6.esm.min.js";
-//import Web3 from "web3";
 import "./Store.css";
-// import { ethers } from "./ethers-5.6.esm.min.js";
-//import { abi } from "./constants.js";
 import Fall from "../../components/Fall/Fall.jsx";
 import { Link, useNavigate } from "react-router-dom";
 import * as PushAPI from "@pushprotocol/restapi";
 import * as ethers from "ethers";
-// import { ethers } from "ethers";
-// const contractAddress = "0xc95c4F5079C1a29d2e2543B308447bCbA08191fD";   this was on goerli eth 
-// const contractAddress = "0x3A909a87AAB370ca955266A17E48F7176027cdad";
 const ContractAddress="0x3091da46A06528a46764b32c9AE8c58B3C221B5F"
-// const buying = () => {
-//   console.log("meow");
-// }
-
 const abi = [
   {
     "inputs": [],
@@ -155,21 +144,9 @@ function Form() {
       const accounts = await web3.eth.getAccounts();
       const userAddress = accounts[0];
       console.log("my metamask:", userAddress);
-
-      // const amount = web3.utils.toWei("0.01", "ether");
-      // const toAddress = "0x3091da46A06528a46764b32c9AE8c58B3C221B5F";
-      // const transactionParameters = {
-      //   from: address,
-      //   to: toAddress,
-      //   value: amount,
-      // };
       const amount = web3.utils.toWei("0.01", "ether"); // Convert 1 Ether to wei
       contract.setProvider(web3.currentProvider);
       const tx = await contract.methods.deposit().send({ from: "0xAdF8af32653ffdF5c5cD4ae760b54598a51536d3", value: amount });
-      // // const transactionParameters={};
-      // const result = await web3.eth.sendTransaction(transactionParameters);
-      // console.log(result);
-      // const Pkey = `0xbfda15ce3b8a6405882e7571d9953e9435d45d713eff2fee080b9a4873094d05`;
       const Pkey = `2cd034745b76389975c88865effd4caf16ba9773d697eeafd58e63bac004f199`;
 
 const signer = new ethers.Wallet(Pkey);
@@ -211,15 +188,6 @@ sendNotification();
   return connect();
 }
 
-//working button 2
-// function Trial2() {
-//   fetch("https://dummyjson.com/products")
-//     .then((response) => response.json())
-//     .then((data) => console.log(data));
-
-//   console.log("NFT minted yaay!! no da clown nikki");
-// }
-
 function Trial2() {
   // window.location.href = "./rain.html";
   console.log("here in trial 2 bro");
@@ -248,13 +216,6 @@ const Store = () => {
         "https://www.pinnacle.com/Cms_Data/Contents/Guest/Media/esports2017/Article-Images/Valorant/2020-What-is-Valorant/Esports-What-is-Valorant-Temp-Hero.jpg",
       title: "Valorant",
       desc: "Valorant is a team-based first-person shooter game developed by Riot Games. Players choose from a roster of unique characters, each with their own set of abilities, and battle in fast-paced matches using strategy and precision to outplay their opponents. The objective is to plant or defuse a bomb, or eliminate the opposing team, in a best-of-24-round game.",
-      // ratings: (
-      //   <i class="fa-sharp fa-solid fa-star">
-      //     <i class="fa-sharp fa-solid fa-star">
-      //       <i class="fa-sharp fa-solid fa-star"></i>{" "}
-      //     </i>{" "}
-      //   </i>
-      // ),
       ratings: "94%",
       price: "0.01ETH",
     },
@@ -264,15 +225,7 @@ const Store = () => {
         "https://assets.reedpopcdn.com/cs-go.jpeg/BROK/thumbnail/1600x900/quality/100/cs-go.jpeg",
       title: "Counter Strike: Global Offensive",
       desc: "Counter-Strike: Global Offensive (CS:GO) is a first-person shooter game developed by Valve Corporation. Players join terrorist or counter-terrorist teams and engage in fast-paced, objective-based matches. The game includes a wide range of weapons and game modes, with emphasis on team strategy, communication, and skillful play.",
-      // ratings: (
-      //   <i class="fa-sharp fa-solid fa-star">
-      //     <i class="fa-sharp fa-solid fa-star">
-      //       <i class="fa-sharp fa-solid fa-star">
-      //         <i class="fa-sharp fa-solid fa-star"></i>{" "}
-      //       </i>{" "}
-      //     </i>{" "}
-      //   </i>
-      // ),
+     
       ratings: "91%",
       price: "0.01ETH",
     },
@@ -282,13 +235,6 @@ const Store = () => {
         "https://cdn2.unrealengine.com/fallguys-keyart-evergreen-v1-3840x2160-3506fecb3424.png",
       title: "Fall Guys",
       desc: "Fall Guys: Ultimate Knockout is a multiplayer party game developed by Mediatonic. Players compete in various obstacle courses and mini-games with up to 60 players at a time, with the aim of being the last one standing. The game features colorful graphics and physics-based gameplay that creates hilarious moments and chaotic fun for players.",
-      // ratings: (
-      //   <i class="fa-sharp fa-solid fa-star">
-      //     <i class="fa-sharp fa-solid fa-star">
-      //       <i class="fa-sharp fa-solid fa-star"></i>{" "}
-      //     </i>{" "}
-      //   </i>
-      // ),
       ratings: "89%",
       price: "0.01ETH",
     },
@@ -298,17 +244,6 @@ const Store = () => {
         "https://imageio.forbes.com/specials-images/imageserve/5ebd5555a69715000675b96d/GTA-V/960x0.jpg",
       title: "GTA 5",
       desc: "Grand Theft Auto V (GTA 5) is an open-world action-adventure game developed by Rockstar North. Players take on the roles of three protagonists as they complete missions, engage in heists, and explore the vast city of Los Santos. The game features a realistic world, immersive gameplay, and a gripping storyline.",
-      // ratings: (
-      //   <i class="fa-sharp fa-solid fa-star">
-      //     <i class="fa-sharp fa-solid fa-star">
-      //       <i class="fa-sharp fa-solid fa-star">
-      //         <i class="fa-sharp fa-solid fa-star">
-      //           <i class="fa-sharp fa-solid fa-star"></i>{" "}
-      //         </i>{" "}
-      //       </i>{" "}
-      //     </i>{" "}
-      //   </i>
-      // ),
       ratings: "97%",
       price: "0.01ETH",
     },
@@ -319,13 +254,6 @@ const Store = () => {
         "https://i0.wp.com/waytoomany.games/wp-content/uploads/2021/11/Forza-Horizon-5-10.png",
       title: "Forza Horizon",
       desc: "Forza Horizon is an open-world racing game developed by Playground Games. Players participate in a series of races and events across a variety of terrains, from urban streets to dirt roads and more. The game features a wide range of customizable cars and a vibrant world with dynamic weather and time of day cycles.",
-      // ratings: (
-      //   <i class="fa-sharp fa-solid fa-star">
-      //     <i class="fa-sharp fa-solid fa-star">
-      //       <i class="fa-sharp fa-solid fa-star"></i>{" "}
-      //     </i>{" "}
-      //   </i>
-      // ),
       ratings: "86%",
       price: "0.01ETH",
     },
@@ -334,27 +262,11 @@ const Store = () => {
       value: "https://i.ytimg.com/vi/TZ_G6XiHoUA/maxresdefault.jpg",
       title: "Witcher 3",
       desc: "The Witcher 3 is an action role-playing video game set in a vast open-world filled with captivating characters, intricate storylines, and diverse landscapes. Players assume the role of Geralt of Rivia, a professional monster hunter, as he navigates political turmoil and battles supernatural threats in a visually stunning and immersive environment.",
-      // ratings: (
-      //   <i class="fa-sharp fa-solid fa-star">
-      //     <i class="fa-sharp fa-solid fa-star">
-      //       <i class="fa-sharp fa-solid fa-star"></i>{" "}
-      //     </i>{" "}
-      //   </i>
-      // ),
+ 
       ratings: "90%",
       price: "0.01ETH",
     },
   ];
-  // {id:7,value:"https://geco.netlify.app/assets/img/images/released_game_img03.jpg",title:"Title 7",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit Unde sunt est dolore, aspernatur aut atque repellat temporibus voluptas at veritatis,\
-  // optio quos deserunt Vitae deleniticonsequatur delectus impedit provident Quisquam. atque repellat temporibusconsequatur delectus impedit provident QuisquamLorem ipsum dolor sit amet consectetur adipisicing elitconsequatur delectus impedit provident. Quisquam",
-  // ratings:<i class="fa-sharp fa-solid fa-star"></i>,price:"$200" },
-  // {id:8,value:"https://geco.netlify.app/assets/img/images/released_game_img01.jpg",title:"Title 8",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit Unde sunt est dolore, aspernatur aut atque repellat temporibus voluptas at veritatis,\
-  // optio quos deserunt Vitae deleniticonsequatur delectus impedit provident Quisquam. atque repellat temporibusconsequatur delectus impedit provident QuisquamLorem ipsum dolor sit amet consectetur adipisicing elitconsequatur delectus impedit provident. Quisquam",
-  // ratings:<i class="fa-sharp fa-solid fa-star"><i class="fa-sharp fa-solid fa-star"><i class="fa-sharp fa-solid fa-star"><i class="fa-sharp fa-solid fa-star"></i> </i> </i> </i>,price:"$100" },
-  // {id:9,value:"https://geco.netlify.app/assets/img/blog/blog_thumb02.jpg",title:"Title 9",desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit Unde sunt est dolore, aspernatur aut atque repellat temporibus voluptas at veritatis,\
-  // optio quos deserunt Vitae deleniticonsequatur delectus impedit provident Quisquam. atque repellat temporibusconsequatur delectus impedit provident QuisquamLorem ipsum dolor sit amet consectetur adipisicing elitconsequatur delectus impedit provident. Quisquam",
-  // ratings:<i class="fa-sharp fa-solid fa-star"><i class="fa-sharp fa-solid fa-star"><i class="fa-sharp fa-solid fa-star"></i> </i> </i>,price:"$50"  },
-
   const navigate = useNavigate();
 
   const [wordData, setWordData] = useState(imgs[0]);
