@@ -20,24 +20,6 @@ const Posts = () => {
         value="https://cdn2.unrealengine.com/gameplay-4k-00-03-38-59-still007-3840x2160-256b94aa7274.png"
         ViewNft="/ViewNft2"
       />
-      {/* <Post title='Title3' desc='Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Unde sunt est dolore, aspernatur aut, atque repellat temporibus
-       voluptas at veritatis, optio quos deserunt. Vitae deleniti
-       consequatur delectus impedit provident. Quisquam. atque repellat temporibus
-       consequatur delectus impedit provident. Quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-       consequatur delectus impedit provident. Quisquam.'value="https://geco.netlify.app/assets/img/product/latest_games_thumb02.jpg"/>
-       <Post title='Title4' desc=' ipsum dolor sit amet consectetur adipisicing elit.
-      Unde sunt est dolore, aspernatur aut, atque repellat temporibus
-       voluptas at veritatis, optio quos deserunt. Vitae deleniti
-       consequatur delectus impedit provident. Quisquam. atque repellat temporibus
-       consequatur delectus impedit provident. Quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-       consequatur delectus impedit provident. Quisquam.'value="https://geco.netlify.app/assets/img/product/latest_games_thumb03.jpg"/>
-       <Post title='Title5' desc='Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Unde sunt est dolore, aspernatur aut, atque repellat temporibus
-       voluptas at veritatis, optio quos deserunt. Vitae deleniti
-       consequatur delectus impedit provident. Quisquam. atque repellat temporibus
-       consequatur delectus impedit provident. Quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-       consequatur delectus impedit provident. Quisquam.' value="https://geco.netlify.app/assets/img/images/released_game_img03.jpg"/> */}
     </div>
   );
 };
