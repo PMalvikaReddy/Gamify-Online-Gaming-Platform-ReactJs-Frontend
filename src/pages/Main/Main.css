@@ -1,0 +1,22 @@
+/* .Gamess{ 
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+.helloo {
+    margin-top: 2rem;
+    flex: 9;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+.ViewGames{
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+}

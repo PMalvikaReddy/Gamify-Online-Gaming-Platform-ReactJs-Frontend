@@ -1,0 +1,52 @@
+.nft_container {
+  position: relative;
+  top: 0.4rem;
+  width: 185px;
+  height: 280px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: white;
+  background: linear-gradient(rgba(162, 152, 152, 0.5), rgba(26, 25, 25, 0.5));
+}
+
+.nft_container_img {
+  width: 160px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.nft-container_title {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2;
+  font-size: 15px;
+  align-items: center;
+  left: 50%;
+}
+
+.nft-container_info {
+  color: rgb(99, 97, 97);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.nft-container_price {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 0.8;
+  font-size: 15px;
+}
+
+.nft__buy__button {
+  padding: 5px;
+  background-color: silver;
+  width: 120px;
+  margin-left: 20px;
+  color: rgb(37, 35, 35);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}

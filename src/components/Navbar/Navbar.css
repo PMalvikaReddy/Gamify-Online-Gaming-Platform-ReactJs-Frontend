@@ -1,0 +1,100 @@
+.app__navbar {
+  left: 0%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(17, 15, 15);
+  padding: 0px 10px;
+  text-align: center;
+  /* margin-left: 0rem; */
+  /* border-radius: 5px; */
+}
+
+/* .app__navbar-logo{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+} */
+/* .app__navbar-logo img{
+    width: 150px;
+} */
+
+.app__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.p__opensans {
+  margin: 0 3rem;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.5s ease;
+}
+
+.app__navbar-links a:hover {
+  border-bottom: 2px solid rgb(207, 197, 197);
+}
+
+.app__navbar-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.app__navbar-login img {
+  text-decoration: none;
+  margin: 0 1rem;
+  margin-right: 0.1rem;
+  transition: 0.5s ease;
+  
+  align-items: center;
+  list-style: none;
+}
+
+/* .app__navbar-username a {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 2rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+} */
+
+.logo{
+  position: relative;
+  width: 60px;
+  top: -1px;
+  /* margin: 0px; */
+  border-radius: 0px;
+}
+
+.name{
+  position: absolute;
+  width: 200px;
+  top: 45px;
+  border-radius: 1px;
+  /* padding-bottom: -20rem; */
+  /* margin: 0px; */
+  /* border-radius: 0px; */
+}
+
+.empty{
+  position: relative;
+  width: 200px;
+  top: -1px;
+  /* margin: 0px; */
+  border-radius: 1px;
+}
+

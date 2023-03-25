@@ -1,0 +1,107 @@
+.post {
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -3rem;
+}
+
+.gameForm {
+  margin: 1rem;
+  height: 240px;
+  width: 1000px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background: linear-gradient(rgba(162, 152, 152, 0.5), rgba(26, 25, 25, 0.5));
+}
+
+.post img {
+  border-radius: 10px;
+  margin: 1rem 1rem;
+  cursor: pointer;
+  width: 40%;
+}
+
+/* .postdesc {
+  color: white;
+  width: 100rem;
+} */
+
+.custom__button {
+  background-color: crimson;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 100px;
+  width: 80px;
+  margin-right: 1rem;
+}
+
+.postTitle {
+  font-family: "Open Sans", sans-serif;
+  /*font-weight: 600;
+  font-size: 15px; */
+
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  margin-left: 0px;
+  text-shadow: 10px 10px 10px #737373;
+}
+
+.postDesc {
+  font-family: "Open Sans", sans-serif;
+  /*font-weight: 600;*/
+  font-size: .9rem; 
+
+  width: 100%;
+  color: white;
+  /* font-size: 2rem; */
+  margin-left: 0px;
+  text-shadow: 1px 1px 1px #737373;
+}
+
+.rating__button,
+.nft__button {
+  /* background-color: rgb(229, 198, 112); */
+  background-color: rgb(187, 27, 27);
+  color: black;
+  width: 70px;
+  height: 70px;
+  font-family: "Open Sans", sans-serif;
+  /* font-weight: 500; */
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  /* padding: 0.5rem 0.5rem; */
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 5px;
+  list-style: none;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.nft_info_link {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
