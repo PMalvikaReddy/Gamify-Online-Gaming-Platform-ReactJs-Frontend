@@ -191,11 +191,7 @@ sendNotification();
 function Trial2() {
   // window.location.href = "./rain.html";
   console.log("here in trial 2 bro");
-  // <Falling />;
-  // fetch("https://dummyjson.com/products")
-  //   .then((res) => res.json())
-  //   .then(console.log);
-  // <Link to="/Fall"></Link>;
+ 
 }
 
 function Form2() {
@@ -344,7 +340,6 @@ const Store = () => {
           </div>
         </div>
       </div>
-      {/* <Sidebar /> */}
     </div>
   );
 };
