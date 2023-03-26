@@ -7,7 +7,7 @@ Hence, presenting Gamify, a decentralised digital game distribution platform whi
 
 The Gamify platform also integrates NFTs as tradeable in-game items and assets that can be minted (collected).These NFTs provide a new level of ownership, control, and monetization for gamers in Web3 games. Gamers can thus use these NFTs to to trade, sell, stake their assets in a decentralized marketplace or also trade them  in the game community which is implemented using the push chat group.
 
-[The full demo of the project](https://www.youtube.com/watch?v=wbLEz9JIEKQ&t=9s)
+[The full demo of the project](https://www.youtube.com/watch?v=wbLEz9JIEKQ&t=9s) on Youtube
 
 Here are some of the Screen Shots from our website
 
