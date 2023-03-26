@@ -1,11 +1,16 @@
 # Gamify-Scaling Ethereum
 ## Introduction
 
-You may have heard of various centralised web2 gaming platforms where the game developer has complete control over the game's economy, rules, and ownership of in-game assets. But,what if it wasn't so. What do you think about a decentralised game distribution platform that leverage blockchain technology where players have all control over their in-game assets and can own and trade them outside of the game. 
+Gamify is an innovative digital game distribution platform that allows gamers to purchase games and mint in-game collectibles/items as NFTs. Enter the world of Web3 gaming, where ownership, control, and earning potential are no longer just in-game achievements but a reality for every player. These unique NFTs can be later used in games, making the gaming experience more immersive and engaging.
 
-Hence, presenting Gamify, a decentralised digital game distribution platform which offers a seamless experience for gamers to discover, purchase and play their favourite games. Enter the world of Web3 gaming, where ownership, control, and earning potential are no longer just in-game achievements but a reality for every player.
+To ensure seamless functionality, we have employed Polybase as our database, which efficiently stores all game-related data. The purchase of games triggers the smart contract deployed on Scroll Zk-EVM, which allows for secure and transparent transactions. After the completion of the contract interaction, the game is successfully bought, providing a seamless gaming experience to the user.
 
-The Gamify platform also integrates NFTs as tradeable in-game items and assets that can be minted (collected).These NFTs provide a new level of ownership, control, and monetization for gamers in Web3 games. Gamers can thus use these NFTs to to trade, sell, stake their assets in a decentralized marketplace or also trade them  in the game community which is implemented using the push chat group.
+Gamers can mint NFTs related to the games, which serve as in-game items with varying degrees of rarity. These unique NFTs can be traded with the community, adding an element of collectibility to the gaming experience. This process is carried out via contract interaction. This smart contract is deployed to mantle testnet.
+
+To facilitate communication between gamers, we have incorporated Push chat, which allows users to interact with one another, share tips and strategies, and build a sense of community. Additionally, push notifications are sent to users after successful game purchases and NFT minting, providing a sense of accomplishment and enhancing the overall user experience while gaming.
+
+In summary, Gamify is a cutting-edge platform that leverages the benefits of blockchain technology to provide gamers with a seamless and immersive gaming experience. By allowing for the purchase of games and the minting of NFTs, we have created a unique ecosystem that enhances the user experience and adds an element of collectibility to the gaming world.
+
 
 [The full demo of the project](https://www.youtube.com/watch?v=wbLEz9JIEKQ&t=9s) on Youtube
 
