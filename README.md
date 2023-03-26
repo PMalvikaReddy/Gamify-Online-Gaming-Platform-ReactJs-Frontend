@@ -7,7 +7,28 @@ Hence, presenting Gamify, a decentralised digital game distribution platform whi
 
 The Gamify platform also integrates NFTs as tradeable in-game items and assets that can be minted (collected).These NFTs provide a new level of ownership, control, and monetization for gamers in Web3 games. Gamers can thus use these NFTs to to trade, sell, stake their assets in a decentralized marketplace or also trade them  in the game community which is implemented using the push chat group.
 
-## Technologies
+Here are some of the Screen Shots from our website
+
+1. Games Page
+
+![q](https://user-images.githubusercontent.com/108075033/227780618-1d4de80b-8c13-4292-b467-e94374c1e5a5.png)
+
+
+2. Game Purchase Page
+
+![2](https://user-images.githubusercontent.com/108075033/227780465-1f14d4e3-d7de-45ac-9a9d-7e2daf1288b9.png)
+
+5. Minted NFT.
+
+![3](https://user-images.githubusercontent.com/108075033/227780495-e3ff7466-81fc-488a-b3f8-a7e1460904c2.png)
+
+4. All the NFTs that are minted.
+
+![allNft](https://user-images.githubusercontent.com/108075033/227780486-99f60f4b-e78c-43a2-9313-4006942c30a2.png)
+
+
+
+## Technologies Used
 - ### Polybase -
     The project uses Polybase for its database where it stores and renders all the images, text etc. related to the games on the platform. This technology helps replace the centralised databases by providing enhanced security, privacy, and transparency. It performs at a really fast speed, thereby allowing us to deliver a seamless experience to the users.
     
