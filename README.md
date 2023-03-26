@@ -58,7 +58,7 @@ Here are some of the Screen Shots from our website
 
 - ### PUSH Protocol -
   Every gaming platform needs a space for discussion that helps build a sense of community, provide support, feedback, learning opportunities, and increase   player engagement and retention. Hence, we have introduced PUSH chat into our project, where each user can join the game community which is a PUSH group to       discuss, trade and invite each other to play together in any game.
-  Notifications is also a crucical component of this gamimg platform. They serve to keep players engaged, informed, and up-to-date on important events.Thus,       the project uses PUSH notifications to help notify the user when a new NFT is minted and to also show the transactions to confirm their ownership.
+  Notifications is also a crucical component of this gamimg platform. They serve to keep players engaged, informed, and up-to-date on important events.Thus,       the project uses PUSH notifications to help notify the user when a new NFT is minted and to also show the transactions to confirm their ownership, also notifications are sent after the successful purchase of games.
 
 The follwing are the screenshots from the push staging 
 
