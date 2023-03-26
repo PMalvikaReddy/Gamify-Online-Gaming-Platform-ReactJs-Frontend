@@ -13,20 +13,20 @@ Here are some of the Screen Shots from our website
 
 1. Games Page
 
-![q](https://user-images.githubusercontent.com/108075033/227780618-1d4de80b-8c13-4292-b467-e94374c1e5a5.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780618-1d4de80b-8c13-4292-b467-e94374c1e5a5.png">
 
 
 2. Game Purchase Page
 
-![2](https://user-images.githubusercontent.com/108075033/227780465-1f14d4e3-d7de-45ac-9a9d-7e2daf1288b9.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780465-1f14d4e3-d7de-45ac-9a9d-7e2daf1288b9.png">
 
 5. Minted NFT.
 
-![3](https://user-images.githubusercontent.com/108075033/227780495-e3ff7466-81fc-488a-b3f8-a7e1460904c2.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780495-e3ff7466-81fc-488a-b3f8-a7e1460904c2.png">
 
 4. All the NFTs that are minted.
 
-![allNft](https://user-images.githubusercontent.com/108075033/227780486-99f60f4b-e78c-43a2-9313-4006942c30a2.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780486-99f60f4b-e78c-43a2-9313-4006942c30a2.png">
 
 
 
@@ -45,7 +45,7 @@ Here are some of the Screen Shots from our website
     
     Scroll Transaction details from Scroll Alpha Testnet
     
-   ![7](https://user-images.githubusercontent.com/108075033/227780312-18747bd5-8e32-40dd-a131-0f736821fa22.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780312-18747bd5-8e32-40dd-a131-0f736821fa22.png">
 
 
      
@@ -62,7 +62,7 @@ Here are some of the Screen Shots from our website
     
      Mantle Testnet Transaction details after minting NFT
     
-    ![6](https://user-images.githubusercontent.com/108075033/227780238-7b5d87d8-10fc-4d5a-bb15-bb549de9494c.png)
+    <img width="800" src="https://user-images.githubusercontent.com/108075033/227780238-7b5d87d8-10fc-4d5a-bb15-bb549de9494c.png">
      
 
 - ### PUSH Protocol -
@@ -73,8 +73,8 @@ The follwing are the screenshots from the push staging
 
 Push Chat
 
-![4](https://user-images.githubusercontent.com/108075033/227780115-68f9ffa5-3d92-4159-ae25-538e556cedb4.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780115-68f9ffa5-3d92-4159-ae25-538e556cedb4.png">
 
 Push Notification
 
-![5](https://user-images.githubusercontent.com/108075033/227780127-047cb5a6-8331-4b99-b4b4-3361efa8b819.png)
+<img width="800" src="https://user-images.githubusercontent.com/108075033/227780127-047cb5a6-8331-4b99-b4b4-3361efa8b819.png">
