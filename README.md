@@ -25,7 +25,7 @@ Here are some of the Screen Shots from our website
 
 <img width="800" src="https://user-images.githubusercontent.com/108075033/227780465-1f14d4e3-d7de-45ac-9a9d-7e2daf1288b9.png">
 
-5. Minted NFT.
+3. Minted NFT.
 
 <img width="800" src="https://user-images.githubusercontent.com/108075033/227780495-e3ff7466-81fc-488a-b3f8-a7e1460904c2.png">
 
