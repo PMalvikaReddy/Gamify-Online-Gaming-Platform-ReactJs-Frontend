@@ -10,6 +10,10 @@ This project consists of two smart contracts one among them is NFT Minting  cont
     **Contract Address: 0x3091da46A06528a46764b32c9AE8c58B3C221B5F**
     
     **Deployed Contract Link:[Link to deployment on Scroll Alpha testnet](https://blockscout.scroll.io/address/0x3091da46A06528a46764b32c9AE8c58B3C221B5F)** 
+    Details of contract deployed on Scroll Alpha Testnet
+    
+    <img width="1440" alt="Screenshot 2023-03-26 at 7 34 32 PM" src="https://user-images.githubusercontent.com/108075033/227781219-0998041f-2f78-49ee-ad8c-174570a7f892.png">
+
     
     Scroll Transaction details from Scroll Alpha Testnet
     
@@ -27,6 +31,11 @@ This project consists of two smart contracts one among them is NFT Minting  cont
     **Contract Address: 0x941a364F4BDadbAbE876201200104a4d90042f77**
     
     **Deployed Contract Link:[Link to deployment on Mantle testnet](https://explorer.testnet.mantle.xyz/address/0x941a364F4BDadbAbE876201200104a4d90042f77)**
+    
+    Details of contract deployed on Scroll Alpha Testnet
+    
+    <img width="1440" alt="Screenshot 2023-03-26 at 7 34 42 PM" src="https://user-images.githubusercontent.com/108075033/227781246-4f6d8938-c729-4d17-9996-a948022a3493.png">
+
     
      Mantle Testnet Transaction details after minting NFT
     
